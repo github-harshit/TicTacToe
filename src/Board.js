@@ -183,9 +183,9 @@ export function Board(props) {
    <>
  
     
-    
+ {status ? <h1 className={styles.status } > {status} </h1> :  <h1 className={styles.turn}>{turn}</h1>  } 
    <div  className={styles.board} >
-   {status ? <h1 className={styles.status } > {status} </h1> :  <h1 className={styles.turn}>{turn}</h1>  } 
+  
    <div className={styles.outline}>
     <Square value={board[0]} handleClick={(e)=>handleClick(0, e)}/>
     <Square value={board[1]}  handleClick={(e)=>handleClick(1, e)}/>
@@ -205,9 +205,10 @@ export function Board(props) {
     
    </div>
 
-   {status ?  <button className={styles.btn} onClick={handleRestart} > Play Again </button> : null }
+  
 
     </div>
+    {status ?  <button className={styles.btn} onClick={handleRestart} > Play Again </button> : null }
    
    </>
   )

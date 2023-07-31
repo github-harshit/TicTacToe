@@ -2,15 +2,17 @@
     
         width: 400px;
         margin :  auto; 
-       margin-top: 200px;
+       margin-top: 150px;
+      ;
       
 
      
      
 }
 .outline{
-        height: 150px;
-        width: 450px;
+  margin-left: 50px;
+        height: 100px;
+        width: 300px;
          border: 1px solid black;
          display: flex;
          flex-direction: row;
@@ -24,6 +26,7 @@
         opacity: 0;
         transform: translateY(-20px);
         animation: fadeIn 1s forwards;
+        text-align: center;
       }
       
       @keyframes fadeIn {
@@ -36,7 +39,7 @@
  .turn{
          text-align: center;
          margin-top: 50px;
-         transition: #fff 0.5s ease-in-out;
+       
          
  }
   .btn { 
@@ -50,10 +53,11 @@
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 0 10px #7a7676;
-   margin: auto;
+    margin-left: 700px;
     margin-top: 25px;
     transform: translateY(-20px);
     animation: fadeIn 1s forwards;
+    text-align: center;
   
   
   @keyframes fadeIn {
