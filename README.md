@@ -1,6 +1,7 @@
 
 
 # Tic Tac Toe App
+![Alt Text](https://github.com/github-harshit/TicTacToe/blob/10758afd5a1cdea902806f70a29864504818bf75/Screenshot%20(56).png)
 
 ## Overview
 
