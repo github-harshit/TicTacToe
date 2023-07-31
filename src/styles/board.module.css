@@ -1,0 +1,67 @@
+.board {
+    
+        width: 400px;
+        margin :  auto; 
+       margin-top: 200px;
+      
+
+     
+     
+}
+.outline{
+        height: 150px;
+        width: 450px;
+         border: 1px solid black;
+         display: flex;
+         flex-direction: row;
+   
+}
+
+.status  {
+        font-size: 48px;
+        font-weight: bold;
+        color: green;
+        opacity: 0;
+        transform: translateY(-20px);
+        animation: fadeIn 1s forwards;
+      }
+      
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+ .turn{
+         text-align: center;
+         margin-top: 50px;
+         transition: #fff 0.5s ease-in-out;
+         
+ }
+  .btn { 
+        font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border: 2px solid #01070d;
+    border-radius: 0.5rem;
+    background-color: #01070d;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #7a7676;
+   margin: auto;
+    margin-top: 25px;
+    transform: translateY(-20px);
+    animation: fadeIn 1s forwards;
+  
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  }
+
+ 
